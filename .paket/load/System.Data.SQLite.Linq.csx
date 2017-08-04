@@ -1,0 +1,1 @@
+#r "../../packages/System.Data.SQLite.Linq/lib/net46/System.Data.SQLite.Linq.dll" 

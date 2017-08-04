@@ -1,0 +1,1 @@
+#r "../../packages/SQLProvider/lib/FSharp.Data.SqlProvider.dll" 

@@ -1,0 +1,10 @@
+redirects: on
+
+source https://www.nuget.org/api/v2
+
+framework: net462
+
+nuget FAKE
+nuget FSharp.Core
+nuget System.Data.SQLite
+nuget SQLProvider

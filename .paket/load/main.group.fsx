@@ -1,0 +1,7 @@
+#r "../../packages/EntityFramework/lib/net45/EntityFramework.dll" 
+#r "../../packages/SQLProvider/lib/FSharp.Data.SqlProvider.dll" 
+#r "../../packages/System.Data.SQLite.Core/lib/net46/System.Data.SQLite.dll" 
+#r "../../packages/System.Data.SQLite.EF6/lib/net46/System.Data.SQLite.EF6.dll" 
+#r "../../packages/EntityFramework/lib/net45/EntityFramework.SqlServer.dll" 
+#r "../../packages/System.Data.SQLite.Linq/lib/net46/System.Data.SQLite.Linq.dll" 
+#r "System.ComponentModel.DataAnnotations" 

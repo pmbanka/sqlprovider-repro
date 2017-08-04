@@ -1,0 +1,16 @@
+REDIRECTS: ON
+RESTRICTION: == net462
+NUGET
+  remote: https://www.nuget.org/api/v2
+    EntityFramework (6.1.3)
+    FAKE (4.63)
+    FSharp.Core (4.2.2)
+    SQLProvider (1.1.6)
+    System.Data.SQLite (1.0.105.2)
+      System.Data.SQLite.Core (>= 1.0.105.2)
+      System.Data.SQLite.EF6 (>= 1.0.105.2)
+      System.Data.SQLite.Linq (>= 1.0.105.2)
+    System.Data.SQLite.Core (1.0.105.2)
+    System.Data.SQLite.EF6 (1.0.105.2)
+      EntityFramework (>= 6.0)
+    System.Data.SQLite.Linq (1.0.105.2)
