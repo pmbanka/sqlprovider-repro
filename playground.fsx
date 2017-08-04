@@ -18,8 +18,10 @@ let ctx = sql.GetDataContext()
 let zz = 
     query {
         for e in ctx.Main.Employee do
+        where (e.Title = None)
         join et in ctx.Main.EmployeeTerritory on (e.Id = Some et.EmployeeId)
-        select e.Address
+        join t in ctx.Main.Territory on (et.TerritoryId = t.Id)
+        select (t.RegionId)
     } |> Seq.tryHead
 
 
